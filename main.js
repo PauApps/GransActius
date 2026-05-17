@@ -63,7 +63,7 @@ const dict = {
           type: 'test', questions: [
             { question: 'Quin emoji representa un cor? ', options: ['😊', '🙏', '❤️', '🤔'], correctIndex: 2 },
             { question: 'Què vol dir aquest emoji: 😢?', options: ['Content', 'Menjant', 'Molt cansat', 'Trist'], correctIndex: 3 },
-            { image: 'airplane_icon.png', question: 'Amb quin emoji podem representar un viatge a la platja?', options: ['🏖️', '🛏️', '☕', '🚪'], correctIndex: 0 },
+            { question: 'Amb quin emoji podem representar un viatge a la platja?', options: ['🏖️', '🛏️', '☕', '🚪'], correctIndex: 0 },
             { question: 'Com es fa amb emojis: “M’agrada”?', options: ['👎', '👍', '🤷‍♀️', '🙅‍♂️'], correctIndex: 1 }
           ]
         }
