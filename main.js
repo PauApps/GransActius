@@ -34,38 +34,28 @@ const dict = {
       },
       2: {
         name: 'Poma', title: 'WhatsApp',
-        relax: { type: 'text', text: "Has de fer les següents proves: \n1. Enviau una nota de veu per WhatsApp a n'Alba. \n2. Compartiu la vostra ubicació en directe amb n’Alba \n3. Feu una foto d’alguna cosa de la classe i edita-la afegint un dibuix i escriu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
-        expert: { type: 'text', text: "Has de fer les següents proves: \n1. Creau un grup nou amb n’Alba i vosaltres. \n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono. \n3. Creau un sticker instantani a partir d’una foto i envia-la pel grup nou. \n4. Eliminau el grup que heu fet." }
+        relax: { type: 'text', text: "Has de fer les següents proves:\n\n1. Enviau una nota de veu per WhatsApp a n'Alba.\n\n2. Compartiu la vostra ubicació en directe amb n’Alba\n\n3. Feu una foto d’alguna cosa de la classe i edita-la afegint un dibuix i escriu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
+        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1. Creau un grup nou amb n’Alba i vosaltres.\n\n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono.\n\n3. Creau un sticker instantani a partir d’una foto i envia-la pel grup nou.\n\n4. Eliminau el grup que heu fet." }
       },
       3: {
         name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
-        relax: { type: 'text', text: "Demanau a la IA les següents coses: \n1. Que vos faci un menú saludable per la setmana. \n2. Que vos tregui la llista de la compra del menú anterior. \n3. Com fer una recepta de magdalenes de xocolata." },
-        expert: { type: 'text', text: "Demanau a la IA les següents coses: \n1. Que vos tregui una imatge d’un menú saludable per la setmana. \n2. Que faci un prompt per fer una cançó o un poema. \n3. Fer una cançó o un poema a partir del prompt anterior." }
+        relax: { type: 'text', text: "Demanau a la IA les següents coses:\n\n1. Que vos faci un menú saludable per la setmana.\n\n2. Que vos tregui la llista de la compra del menú anterior.\n\n3. Com fer una recepta de magdalenes de xocolata." },
+        expert: { type: 'text', text: "Demanau a la IA les següents coses:\n\n1. Que vos tregui una imatge d’un menú saludable per la setmana.\n\n2. Que faci un prompt per fer una cançó o un poema.\n\n3. Fer una cançó o un poema a partir del prompt anterior." }
       },
       4: {
         name: 'Plàtan', title: 'Correu electrònic',
-        relax: { type: 'text', text: "La teva prova és: Obre el teu correu electrònic i envia un correu a l'adreça de correu de n'Alba amb l'assumpte 'Hola n'Alba' i un missatge senzill." },
-        expert: { type: 'text', text: "La teva prova és: Fes-te un selfie fent servir el temporitzador de 3 segons de la càmera i ensenya'l a n'Alba." }
+        relax: { type: 'text', text: "Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb assumpte, salutació, dita i clausura amb els vostres noms." },
+        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1.Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb Còpia als altres del vostre grup.\n\n2. Responeu al correu de n’Alba a tots els del grup adjuntant una foto." }
       },
       5: {
-        name: 'Meló', title: 'Repàs d\'Ajustos',
-        relax: {
-          type: 'test', questions: [
-            { question: 'On es canvia la mida de la lletra perquè la vegis més grossa?', options: ['A l\'aplicació del temps', 'Als números del telèfon per trucar', 'A Configuració / Pantalla (o Ajustos)', 'Apagant la pantalla'], correctIndex: 2 },
-            { question: 'Com s\'apuja la lluentor de la pantalla?', options: ['Lliscar de dalt a baix i moure la barra del sol', 'Posant el mòbil de cara al sol', 'Fregant la pantalla', 'Canviant la bateria'], correctIndex: 0 }
-          ]
-        },
-        expert: {
-          type: 'test', questions: [
-            { question: 'On pots veure quin percentatge de bateria et queda?', options: ['Dins de WhatsApp', 'A Configuració > Bateria (o fent lliscar de dalt a baix)', 'A la càmera de fotos', 'Trucant a la teva operadora'], correctIndex: 1 },
-            { question: 'Com es canvia el fons de pantalla?', options: ['No es pot canviar mai', 'Fent una foto i prou', 'A Configuració > Fons de pantalla (o mantenint premut l\'escriptori)', 'A l\'aplicació del calendari'], correctIndex: 2 }
-          ]
-        }
+        name: 'Meló', title: 'Videocridada',
+        relax: { type: 'text', text: "Llegiu primer totes les proves i després feis-les durant la videocridada:\n\n1. Feis una videocridada amb n’Alba i els del grup\n\n2. Silenciau-vos.\n\n3. Canviau la càmera a la de darrere." },
+        expert: { type: 'text', text: "Llegiu primer totes les proves i després feis-les durant la videocridada:\n\n1. Feis una videocridada amb n’Alba i els del grup\n\n2. Silenciau-vos.\n\n3. Sortiu de whatsapp sense sortir de la cridada.\n\n4. Tornau a la cridada.\n\n5. Posau-vos un filtre/fons/efecte…" },
       },
       6: {
-        name: 'Síndria', title: 'Prova Pràctica 3',
-        relax: { type: 'text', text: "La teva prova és: Posa una alarma al rellotge del teu mòbil per demà a les 08:30 del matí. Mostra-ho a n'Alba." },
-        expert: { type: 'text', text: "La teva prova és: Posa una alarma per demà a les 08:30 i posa-li d'etiqueta/nom 'Bon dia'. Mostra-ho a n'Alba." }
+        name: 'Síndria', title: 'Google Maps',
+        relax: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en cotxe.\n\n2. Un restaurant a Santa Eugènia amb bona puntuació." },
+        expert: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en transport públic a les 14:00 h.\n\n2. Un restaurant a Santa Maria amb bona puntuació, que estigui obert i amb preu 20-30 € i guardau-lo.\n\n3.Compartiu el restaurant amb n’Alba per WhatsApp." }
       },
       7: {
         name: 'Pera', title: 'Repàs de Connexions',
@@ -79,9 +69,9 @@ const dict = {
         }
       },
       8: {
-        name: 'Rem', title: 'Prova Pràctica 4',
-        relax: { type: 'text', text: "La teva prova és: Afegeix el telèfon d'un company a la teva agenda de Contactes i truca'l un instant." },
-        expert: { type: 'text', text: "La teva prova és: Crea un contacte nou posant-li una foto de perfil (li pots fer a l'instant) i guarda'l. Avisa a n'Alba." }
+        name: 'Rem', title: 'Cerques',
+        relax: { type: 'text', text: "Has de fer les següents proves:\n\n1. Cercar la cançó Mediterráneo d’en Joan Manuel Serrat.\n\n1. Cerca a Google la següent definició: \"Què és l'alfabetització mediàtica\" i escriu-ne 3 característiques. 2. Cerca el temps que farà demà a Petra i digues-ho a n\'Alba. 3. Cerca una cançó popular mallorquina i envia-li el link a n\'Alba." },
+        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1. Cercar la cançó Mediterráneo d’en Joan Manuel Serrat 1. Cerca a Google la següent definició: \"Què és l'alfabetització mediàtica\" i escriu-ne 3 característiques. 2. Cerca el temps que farà demà a Petra i digues-ho a n\'Alba. 3. Cerca una cançó popular mallorquina i envia-li el link a n\'Alba." }
       }
     }
   },
