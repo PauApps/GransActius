@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #f0f4f8;
+  --bg-color: #eef4f8;
   --surface-color: #ffffff;
   --text-main: #1a202c;
   --primary-color: #3182ce;
@@ -7,7 +7,7 @@
   --error-color: #e53e3e;
   --success-color: #38a169;
   --border-radius: 16px;
-  --header-bg: #2b6cb0;
+  --header-bg: #1e3a8a;
   --header-text: #ffffff;
   --box-bg: #ebf8ff;
   --box-border: #bee3f8;
@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #cbd5e0;
+  background-color: #eef4f8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,17 +84,18 @@ body {
   padding: 14px 0;
   font-size: 1.2rem;
   font-weight: 800;
-  border: 3px solid var(--header-text);
-  background-color: transparent;
-  color: var(--header-text);
+  border: 3px solid #3b82f6;
+  background-color: #3b82f6;
+  color: #ffffff;
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .lang-btn.active {
-  background-color: var(--header-text);
-  color: var(--header-bg);
+  background-color: #f59e0b;
+  border-color: #f59e0b;
+  color: #000000;
 }
 
 .grid-container {
@@ -108,10 +109,9 @@ body {
 }
 
 .topic-btn {
-  background-color: var(--box-bg);
-  border: 3px solid var(--box-border);
-  border-radius: var(--border-radius);
-  color: var(--primary-hover);
+  border: none;
+  border-radius: 24px;
+  color: #1f2937;
   font-size: 1.8rem;
   font-weight: 800;
   text-align: center;
@@ -119,8 +119,8 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  transition: transform 0.1s, box-shadow 0.1s;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: transform 0.1s, filter 0.1s;
   min-height: 100px;
   padding: 10px;
 }
@@ -130,9 +130,26 @@ body {
 }
 
 .topic-btn:hover {
-  background-color: #e6fffa;
-  border-color: #81e6d9;
+  filter: brightness(1.05);
+  transform: translateY(-2px);
 }
+
+/* 1: Cirera */
+.topic-btn[data-topic-id="1"] { background-color: #fb7185; }
+/* 2: Poma (Verd pastel) */
+.topic-btn[data-topic-id="2"] { background-color: #86efac; }
+/* 3: Mandarina */
+.topic-btn[data-topic-id="3"] { background-color: #fdba74; }
+/* 4: Plàtan */
+.topic-btn[data-topic-id="4"] { background-color: #fde047; }
+/* 5: Meló (Verd pastel) */
+.topic-btn[data-topic-id="5"] { background-color: #a7f3d0; }
+/* 6: Síndria */
+.topic-btn[data-topic-id="6"] { background-color: #fca5a5; }
+/* 7: Pera */
+.topic-btn[data-topic-id="7"] { background-color: #d9f99d; }
+/* 8: Rem/Uva (Lila pastel) */
+.topic-btn[data-topic-id="8"] { background-color: #c084fc; }
 
 /* Modals */
 .modal {
@@ -157,11 +174,12 @@ body {
 }
 
 .modal-content {
-  background-color: var(--surface-color);
+  background-color: #ffffff;
   width: 90%;
   max-width: 400px;
   max-height: 90vh;
   border-radius: 20px;
+  border: 6px solid #1e3a8a;
   padding: 30px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
   position: relative;
