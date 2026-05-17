@@ -34,8 +34,8 @@ const dict = {
       },
       2: {
         name: 'Poma', title: 'WhatsApp',
-        relax: { type: 'text', text: "Has de fer les següents proves:\n\n1. Enviau una nota de veu per WhatsApp a n'Alba.\n\n2. Compartiu la vostra ubicació en directe amb n’Alba\n\n3. Feu una foto d’alguna cosa de la classe i edita-la afegint un dibuix i escriu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
-        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1. Creau un grup nou amb n’Alba i vosaltres.\n\n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono.\n\n3. Creau un sticker instantani a partir d’una foto i envia-la pel grup nou.\n\n4. Eliminau el grup que heu fet." }
+        relax: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Enviau una nota de veu per WhatsApp a n'Alba.\n\n2. Compartiu la vostra ubicació en directe amb n’Alba\n\n3. Feu una foto d’alguna cosa de la classe i edita-la afegint un dibuix i escriu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
+        expert: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Creau un grup nou amb n’Alba i vosaltres.\n\n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono.\n\n3. Creau un sticker instantani a partir d’una foto i envia-la pel grup nou.\n\n4. Eliminau el grup que heu fet." }
       },
       3: {
         name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
@@ -70,8 +70,8 @@ const dict = {
       },
       8: {
         name: 'Rem', title: 'Cerques',
-        relax: { type: 'text', text: "Has de fer les següents proves:\n\n1. Cercar la cançó Mediterráneo d’en Joan Manuel Serrat.\n\n1. Cerca a Google la següent definició: \"Què és l'alfabetització mediàtica\" i escriu-ne 3 característiques. 2. Cerca el temps que farà demà a Petra i digues-ho a n\'Alba. 3. Cerca una cançó popular mallorquina i envia-li el link a n\'Alba." },
-        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1. Cercar la cançó Mediterráneo d’en Joan Manuel Serrat 1. Cerca a Google la següent definició: \"Què és l'alfabetització mediàtica\" i escriu-ne 3 característiques. 2. Cerca el temps que farà demà a Petra i digues-ho a n\'Alba. 3. Cerca una cançó popular mallorquina i envia-li el link a n\'Alba." }
+        relax: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Cercar la cançó Mediterráneo d’en Joan Manuel Serrat.\n\n2. Cercar al youtube una recepta d’arròs brut.\n\n3. Cerca amb incògnit un vol a Barcelona." },
+        expert: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Cercar un vídeo d’exercicis d’esquena sana.\n\n2. Crear una llista de spotify o youtube amb 5 cançons.\n\n3. Cercar un vídeo-tutorial de com plantar tomatigueres i guarda’l\n\n4. Cercar amb incògnit un vol i un hotel a Nova York." }
       }
     }
   },
