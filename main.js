@@ -33,28 +33,18 @@ const dict = {
         }
       },
       2: {
-        name: 'Poma', title: 'Prova Pràctica 1',
-        relax: { type: 'text', text: "La teva prova és: Envia un missatge de WhatsApp al grup de la classe dient la paraula 'ACONSEGUIT'. Quan ho hagis fet, avisa a n'Alba." },
-        expert: { type: 'text', text: "La teva prova és: Envia un missatge de WhatsApp al grup de la classe adjuntant un enllaç a una notícia d'internet. Avisa a n'Alba quan ho tinguis." }
+        name: 'Poma', title: 'WhatsApp',
+        relax: { type: 'text', text: "Has de fer les següents proves: \n1. Enviau una nota de veu per WhatsApp a n'Alba. \n2. Compartiu la vostra ubicació en directe amb n’Alba \n3. Feu una foto d’alguna cosa de la classe i edita-la afegint un dibuix i escriu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
+        expert: { type: 'text', text: "Has de fer les següents proves: \n1. Creau un grup nou amb n’Alba i vosaltres. \n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono. \n3. Creau un sticker instantani a partir d’una foto i envia-la pel grup nou. \n4. Eliminau el grup que heu fet." }
       },
       3: {
-        name: 'Mandarina', title: 'Repàs de WhatsApp',
-        relax: {
-          type: 'test', questions: [
-            { question: 'Com s\'envia un missatge de veu per WhatsApp?', options: ['Polsant l\'espai en l\'escriptura', 'Mantenint premut icona del micròfon', 'Esborrant les lletres per parlar', 'Fent doble clic a la foto'], correctIndex: 1 },
-            { question: 'Com es fa una videotrucada?', options: ['Cridant molt fort', 'Apropant el mòbil a l\'orella', 'Clicant a la icona de la càmera de vídeo a dalt', 'Enviant 5 fotos seguides'], correctIndex: 2 }
-          ]
-        },
-        expert: {
-          type: 'test', questions: [
-            { question: 'Com pots escoltar un àudio que has gravat abans d\'enviar-lo?', options: ['No es pot', 'Lliscar amunt per bloquejar i donar-li al pause', 'Tancant l\'aplicació', 'Enviant-lo primer i escoltant-lo després'], correctIndex: 1 },
-            { question: 'Com s\'envia una foto que només es pot veure una vegada?', options: ['Polsant el número 1 dins del cercle abans d\'enviar', 'Enviant-la i esborrant-la ràpid', 'Fent-la amb els ulls tancats', 'Això és impossible'], correctIndex: 0 }
-          ]
-        }
+        name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
+        relax: { type: 'text', text: "Demanau a la IA les següents coses: \n1. Que vos faci un menú saludable per la setmana. \n2. Que vos tregui la llista de la compra del menú anterior. \n3. Com fer una recepta de magdalenes de xocolata." },
+        expert: { type: 'text', text: "Demanau a la IA les següents coses: \n1. Que vos tregui una imatge d’un menú saludable per la setmana. \n2. Que faci un prompt per fer una cançó o un poema. \n3. Fer una cançó o un poema a partir del prompt anterior." }
       },
       4: {
-        name: 'Plàtan', title: 'Prova Pràctica 2',
-        relax: { type: 'text', text: "La teva prova és: Fes-te un selfie (autofoto) i ensenya-li a n'Alba la foto des de la teva Galeria." },
+        name: 'Plàtan', title: 'Correu electrònic',
+        relax: { type: 'text', text: "La teva prova és: Obre el teu correu electrònic i envia un correu a l'adreça de correu de n'Alba amb l'assumpte 'Hola n'Alba' i un missatge senzill." },
         expert: { type: 'text', text: "La teva prova és: Fes-te un selfie fent servir el temporitzador de 3 segons de la càmera i ensenya'l a n'Alba." }
       },
       5: {
