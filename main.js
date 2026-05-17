@@ -1,40 +1,40 @@
 const dict = {
   ca: {
-    codeTitle: "Introdueix el codi que t'ha donat la professora",
+    codeTitle: "Introdueix el codi que t'ha donat n'Alba",
     codeError: "Codi incorrecte, torna-ho a intentar!",
     btnVerify: "Validar Codi",
     btnClose: "Tornar al menú",
     placeholderCode: "Escriu aquí...",
-    correctMsg: "¡Correcte! Ja pots anar a dir-li a la professora.",
+    correctMsg: "¡Correcte! Ja pots anar a dir-li a n'Alba.",
     wrongMsg: "Això no és correcte, torna a intentar-ho.",
     topics: {
-      1: { name: 'Tema 1: Ubicació', type: 'test', title: 'Repàs de Google Maps', question: 'Quina aplicació fas servir per veure on ets al mapa?', options: ['A la configuració / Ajustos', 'Mantenint premut el micròfon', 'A Google Maps', 'A la galeria de fotos'], correctIndex: 2 },
-      2: { name: 'Tema 2: Missatges', type: 'text', title: 'Prova Pràctica 1', text: "La teva prova és: Envia un missatge de WhatsApp al grup de la classe dient la paraula 'ACONSEGUIT'. Quan ho hagis fet, avisa a la professora." },
-      3: { name: 'Tema 3: Àudios', type: 'test', title: 'Repàs de WhatsApp', question: 'Com s\'envia un missatge de veu per WhatsApp?', options: ['Polsant l\'espai en l\'escriptura', 'Mantenint premut icona del micròfon', 'Esborrant les lletres per parlar', 'Fent doble clic a la foto'], correctIndex: 1 },
-      4: { name: 'Tema 4: Fotos', type: 'text', title: 'Prova Pràctica 2', text: "La teva prova és: Fes-te un selfie (autofoto) i ensenya-li a la professora la foto des de la teva Galeria." },
-      5: { name: 'Tema 5: Texts', type: 'test', title: 'Repàs d\'Ajustos', question: 'On es canvia la mida de la lletra perquè la vegis més grossa?', options: ['A l\'aplicació del temps', 'Als números del telèfon per trucar', 'A Configuració / Pantalla (o Ajustos)', 'Apagant la pantalla'], correctIndex: 2 },
-      6: { name: 'Tema 6: Alarma', type: 'text', title: 'Prova Pràctica 3', text: "La teva prova és: Posa una alarma al rellotge del teu mòbil per demà a les 08:30 del matí. Mostra-ho a la professora." },
-      7: { name: 'Tema 7: Connexió', type: 'test', title: 'Repàs de Connexions', question: 'Com et connectes a un nou Wi-Fi?', options: ['Posant el mode avió per volar', 'A Configuració / Connexions (o Xarxa Wi-Fi)', 'Apujant el volum de la música al màxim', 'Esborrant contactes antics'], correctIndex: 1 },
-      8: { name: 'Tema 8: Agenda', type: 'text', title: 'Prova Pràctica 4', text: "La teva prova és: Afegeix el telèfon d'un company a la teva agenda de Contactes i truca'l un instant." }
+      1: { name: 'Meló', type: 'test', title: 'Repàs de Google Maps', question: 'Quina aplicació fas servir per veure on ets al mapa?', options: ['A la configuració / Ajustos', 'Mantenint premut el micròfon', 'A Google Maps', 'A la galeria de fotos'], correctIndex: 2 },
+      2: { name: 'Poma', type: 'text', title: 'Prova Pràctica 1', text: "La teva prova és: Envia un missatge de WhatsApp al grup de la classe dient la paraula 'ACONSEGUIT'. Quan ho hagis fet, avisa a n'Alba." },
+      3: { name: 'Síndria', type: 'test', title: 'Repàs de WhatsApp', question: 'Com s\'envia un missatge de veu per WhatsApp?', options: ['Polsant l\'espai en l\'escriptura', 'Mantenint premut icona del micròfon', 'Esborrant les lletres per parlar', 'Fent doble clic a la foto'], correctIndex: 1 },
+      4: { name: 'Cirera', type: 'text', title: 'Prova Pràctica 2', text: "La teva prova és: Fes-te un selfie (autofoto) i ensenya-li a n'Alba la foto des de la teva Galeria." },
+      5: { name: 'Plàtan', type: 'test', title: 'Repàs d\'Ajustos', question: 'On es canvia la mida de la lletra perquè la vegis més grossa?', options: ['A l\'aplicació del temps', 'Als números del telèfon per trucar', 'A Configuració / Pantalla (o Ajustos)', 'Apagant la pantalla'], correctIndex: 2 },
+      6: { name: 'Mandarina', type: 'text', title: 'Prova Pràctica 3', text: "La teva prova és: Posa una alarma al rellotge del teu mòbil per demà a les 08:30 del matí. Mostra-ho a n'Alba." },
+      7: { name: 'Pera', type: 'test', title: 'Repàs de Connexions', question: 'Com et connectes a un nou Wi-Fi?', options: ['Posant el mode avió per volar', 'A Configuració / Connexions (o Xarxa Wi-Fi)', 'Apujant el volum de la música al màxim', 'Esborrant contactes antics'], correctIndex: 1 },
+      8: { name: 'Rem', type: 'text', title: 'Prova Pràctica 4', text: "La teva prova és: Afegeix el telèfon d'un company a la teva agenda de Contactes i truca'l un instant." }
     }
   },
   es: {
-    codeTitle: "Introduce el código que te ha dado la profesora",
+    codeTitle: "Introduce el código que te ha dado Alba",
     codeError: "¡Código incorrecto, vuelve a intentarlo!",
     btnVerify: "Verificar Código",
     btnClose: "Volver al menú",
     placeholderCode: "Escribe aquí...",
-    correctMsg: "¡Correcto! Ve a decírselo a la profesora.",
+    correctMsg: "¡Correcto! Ve a decírselo a Alba.",
     wrongMsg: "Esa no es correcta, vuelve a intentarlo.",
     topics: {
-      1: { name: 'Tema 1: Ubicación', type: 'test', title: 'Repaso de Google Maps', question: '¿Qué aplicación usas para ver dónde estás en el mapa?', options: ['En Configuración / Ajustes', 'Manteniendo pulsado el micrófono', 'En Google Maps', 'En la galería de fotos'], correctIndex: 2 },
-      2: { name: 'Tema 2: Mensajes', type: 'text', title: 'Prueba Práctica 1', text: "Tu prueba es: Envía un mensaje de WhatsApp al grupo de la clase diciendo la palabra 'LOGRADO'. Cuando lo hagas, avisa a la profesora." },
-      3: { name: 'Tema 3: Audios', type: 'test', title: 'Repaso de WhatsApp', question: '¿Cómo se envía un mensaje de voz por WhatsApp?', options: ['Pulsando el espacio en blanco', 'Manteniendo pulsada la icono del micrófono', 'Borrando las letras de la pantalla', 'Haciendo doble clic en la foto'], correctIndex: 1 },
-      4: { name: 'Tema 4: Fotos', type: 'text', title: 'Prueba Práctica 2', text: "Tu prueba es: Hazte un selfie (autofoto) y enséñale a la profesora la foto desde tu Galería." },
-      5: { name: 'Tema 5: Textos', type: 'test', title: 'Repaso de Ajustes', question: '¿Dónde se cambia el tamaño de la letra para que la veas más grande?', options: ['En la aplicación del tiempo', 'En los números para llamar', 'En Configuración / Pantalla (o Ajustes)', 'Apagando el teléfono'], correctIndex: 2 },
-      6: { name: 'Tema 6: Alarma', type: 'text', title: 'Prueba Práctica 3', text: "Tu prueba es: Pon una alarma en el móvil para mañana a las 08:30 de la mañana. Muéstraselo a la profesora." },
-      7: { name: 'Tema 7: Conexión', type: 'test', title: 'Repaso de Conexiones', question: '¿Cómo te conectas a un nuevo Wi-Fi?', options: ['Poniendo el modo avión', 'En Configuración / Conexiones (o Red Wi-Fi)', 'Subiendo el volumen de la música', 'Borrando contactos antiguos'], correctIndex: 1 },
-      8: { name: 'Tema 8: Agenda', type: 'text', title: 'Prueba Práctica 4', text: "Tu prueba es: Añade el teléfono de un compañero a tu agenda de Contactos y dale un toque." }
+      1: { name: 'Melón', type: 'test', title: 'Repaso de Google Maps', question: '¿Qué aplicación usas para ver dónde estás en el mapa?', options: ['En Configuración / Ajustes', 'Manteniendo pulsado el micrófono', 'En Google Maps', 'En la galería de fotos'], correctIndex: 2 },
+      2: { name: 'Manzana', type: 'text', title: 'Prueba Práctica 1', text: "Tu prueba es: Envía un mensaje de WhatsApp al grupo de la clase diciendo la palabra 'LOGRADO'. Cuando lo hagas, avisa a Alba." },
+      3: { name: 'Sandía', type: 'test', title: 'Repaso de WhatsApp', question: '¿Cómo se envía un mensaje de voz por WhatsApp?', options: ['Pulsando el espacio en blanco', 'Manteniendo pulsada la icono del micrófono', 'Borrando las letras de la pantalla', 'Haciendo doble clic en la foto'], correctIndex: 1 },
+      4: { name: 'Cereza', type: 'text', title: 'Prueba Práctica 2', text: "Tu prueba es: Hazte un selfie (autofoto) y enséñale a Alba la foto desde tu Galería." },
+      5: { name: 'Plátano', type: 'test', title: 'Repaso de Ajustes', question: '¿Dónde se cambia el tamaño de la letra para que la veas más grande?', options: ['En la aplicación del tiempo', 'En los números para llamar', 'En Configuración / Pantalla (o Ajustes)', 'Apagando el teléfono'], correctIndex: 2 },
+      6: { name: 'Mandarina', type: 'text', title: 'Prueba Práctica 3', text: "Tu prueba es: Pon una alarma en el móvil para mañana a las 08:30 de la mañana. Muéstraselo a Alba." },
+      7: { name: 'Pera', type: 'test', title: 'Repaso de Conexiones', question: '¿Cómo te conectas a un nuevo Wi-Fi?', options: ['Poniendo el modo avión', 'En Configuración / Conexiones (o Red Wi-Fi)', 'Subiendo el volumen de la música', 'Borrando contactos antiguos'], correctIndex: 1 },
+      8: { name: 'Uva', type: 'text', title: 'Prueba Práctica 4', text: "Tu prueba es: Añade el teléfono de un compañero a tu agenda de Contactos y dale un toque." }
     }
   }
 };
