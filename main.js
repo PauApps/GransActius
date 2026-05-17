@@ -64,7 +64,7 @@ const dict = {
         default: { type: 'test', questions: [
           { question: 'Com et connectes a un nou Wi-Fi?', options: ['Posant el mode avió per volar', 'A Configuració / Connexions (o Xarxa Wi-Fi)', 'Apujant el volum de la música al màxim', 'Esborrant contactes antics'], correctIndex: 1 },
           { question: 'Com actives o desactives el Bluetooth?', options: ['Tancant els ulls', 'Esborrant totes les fotos', 'A Configuració > Bluetooth (o lliscant de dalt a baix)', 'Fent una trucada'], correctIndex: 2 },
-          { question: 'Què és el Mode Avió?', options: ['Un joc d\'avions', 'Una opció que desactiva temporalment trucades, dades i Wi-Fi', 'Una alarma per despertar-te', 'Un botó per anar més ràpid per internet'], correctIndex: 1 },
+          { image: 'airplane_icon.png', question: 'Per a què serveix aquesta icona?', options: ['Per jugar a un joc d\'avions', 'Per desactivar temporalment trucades, dades i Wi-Fi', 'Per posar una alarma per despertar-te', 'Per fer que internet vagi més ràpid'], correctIndex: 1 },
           { question: 'Si no et funciona l\'Internet pel carrer, què comproves?', options: ['Que estiguin enceses les Dades Mòbils', 'L\'aplicació del temps', 'Que tinguis saldo al banc', 'El volum de la trucada'], correctIndex: 0 }
         ]}
       },
@@ -140,7 +140,7 @@ const dict = {
         default: { type: 'test', questions: [
           { question: '¿Cómo te conectas a un nuevo Wi-Fi?', options: ['Poniendo el modo avión', 'En Configuración / Conexiones (o Red Wi-Fi)', 'Subiendo el volumen de la música', 'Borrando contactos antiguos'], correctIndex: 1 },
           { question: '¿Cómo activas o desactivas el Bluetooth?', options: ['Cerrando los ojos', 'Borrando todas las fotos', 'En Configuración > Bluetooth (o deslizando de arriba abajo)', 'Haciendo una llamada'], correctIndex: 2 },
-          { question: '¿Qué es el Modo Avión?', options: ['Un juego de aviones', 'Una opción que desactiva temporalmente llamadas, datos y Wi-Fi', 'Una alarma para despertarte', 'Un botón para ir más rápido por internet'], correctIndex: 1 },
+          { image: 'airplane_icon.png', question: '¿Para qué sirve este icono?', options: ['Para jugar a un juego de aviones', 'Para desactivar temporalmente llamadas, datos y Wi-Fi', 'Para poner una alarma para despertarte', 'Para hacer que internet vaya más rápido'], correctIndex: 1 },
           { question: 'Si no te funciona Internet por la calle, ¿qué compruebas?', options: ['Que estén encendidos los Datos Móviles', 'La aplicación del tiempo', 'Que tengas saldo en el banco', 'El volumen de la llamada'], correctIndex: 0 }
         ]}
       },
@@ -354,12 +354,25 @@ function renderTopicContent(topicId, level, questionIndex = 0) {
     progressText.innerText = currentLang === 'ca' ? `Pregunta ${currentQuestionIndex + 1} de ${contentData.questions.length}` : `Pregunta ${currentQuestionIndex + 1} de ${contentData.questions.length}`;
     quizBody.appendChild(progressText);
 
-    const qText = document.createElement('p');
-    qText.style.fontSize = '1.4rem';
-    qText.style.fontWeight = '600';
-    qText.style.marginBottom = '15px';
-    qText.innerText = qData.question;
-    quizBody.appendChild(qText);
+    if (qData.image) {
+      const img = document.createElement('img');
+      img.src = qData.image;
+      img.style.width = '100%';
+      img.style.maxHeight = '150px';
+      img.style.objectFit = 'contain';
+      img.style.marginBottom = '15px';
+      img.style.borderRadius = '8px';
+      quizBody.appendChild(img);
+    }
+
+    if (qData.question) {
+      const qText = document.createElement('p');
+      qText.style.fontSize = '1.4rem';
+      qText.style.fontWeight = '600';
+      qText.style.marginBottom = '15px';
+      qText.innerText = qData.question;
+      quizBody.appendChild(qText);
+    }
 
     const optionsContainer = document.createElement('div');
     optionsContainer.className = 'quiz-options';
