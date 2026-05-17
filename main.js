@@ -88,80 +88,66 @@ const dict = {
     btnExpert: "Experto 🚀",
     topics: {
       1: {
-        name: 'Cereza', title: 'Repaso de Google Maps',
+        name: 'Cereza', title: '¿Estafa o no?',
         relax: {
           type: 'test', questions: [
-            { question: '¿Qué aplicación usas para ver dónde estás en el mapa?', options: ['En Configuración / Ajustes', 'Manteniendo pulsado el micrófono', 'En Google Maps', 'En la galería de fotos'], correctIndex: 2 },
-            { question: '¿Cómo puedes ver una ruta para ir a pie?', options: ['Clicando en el icono del peatón', 'Poniendo el móvil en el suelo', 'Abriendo la cámara', 'Llamando a un taxi'], correctIndex: 0 }
+            { image: 'Paquet1.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 0 },
+            { question: 'Hola mamá ❤️\nHe perdido el móvil. Este es mi número nuevo: 693618372\nNecesito que me hagas un bizum urgente ahora mismo.\n\n ¿Qué harías?', options: ['Hacer el bizum', 'Llamar a tu hijo/a antes o intentar contactar con algún amigo/amiga', 'Contestar con los datos bancarios'], correctIndex: 1 },
+            { image: 'Citaprevia.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 1 },
+            { image: 'iCloud2.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 0 },
+            { image: 'Logitravel.jpg', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 1 }
           ]
         },
         expert: {
           type: 'test', questions: [
-            { question: '¿Cómo compartes tu ubicación actual por WhatsApp?', options: ['Haciéndole una foto a la calle', 'En el icono del clip (Adjuntar) > Ubicación', 'Gritando por el micrófono dónde estás', 'Escribiendo "estoy aquí"'], correctIndex: 1 },
-            { question: '¿Qué significa el punto azul en el mapa?', options: ['Un sitio para comer', 'La posición donde estás tú ahora mismo', 'Una piscina pública', 'Una tienda cerrada'], correctIndex: 1 }
+            { image: 'Imagin.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 1 },
+            { image: 'BBVA.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 0 },
+            { image: 'SEUR.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 0 },
+            { image: 'Bankinter.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 1 },
+            { image: 'ConsellMallorca.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 1 },
           ]
         }
       },
       2: {
-        name: 'Manzana', title: 'Prueba Práctica 1',
-        relax: { type: 'text', text: "Tu prueba es: Envía un mensaje de WhatsApp al grupo de la clase diciendo la palabra 'LOGRADO'. Cuando lo hagas, avisa a Alba." },
-        expert: { type: 'text', text: "Tu prueba es: Envía un mensaje de WhatsApp al grupo de la clase adjuntando un enlace a una noticia de internet. Avisa a Alba cuando lo tengas." }
+        name: 'Manzana', title: 'WhatsApp',
+        relax: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Enviad una nota de voz por WhatsApp a Alba.\n\n2. Compartid vuestra ubicación en directo con Alba.\n\n3. Haced una foto de algo de la clase, editadla añadiendo un dibujo y escribid “GRANS ACTIUS”. Después enviadla a Alba." },
+        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Cread un grupo nuevo con Alba y vosotros.\n\n2. Enviad por el grupo nuevo un selfie y tapaos la cara con un emoticono.\n\n3. Cread un sticker instantáneo a partir de una foto y enviadla por el grupo nuevo.\n\n4. Eliminad el grupo que habéis hecho." }
       },
       3: {
-        name: 'Mandarina', title: 'Repaso de WhatsApp',
-        relax: {
-          type: 'test', questions: [
-            { question: '¿Cómo se envía un mensaje de voz por WhatsApp?', options: ['Pulsando el espacio en blanco', 'Manteniendo pulsada la icono del micrófono', 'Borrando las letras de la pantalla', 'Haciendo doble clic en la foto'], correctIndex: 1 },
-            { question: '¿Cómo se hace una videollamada?', options: ['Gritando muy fuerte', 'Acercando el móvil a la oreja', 'Clicando en el icono de la cámara de vídeo arriba', 'Enviando 5 fotos seguidas'], correctIndex: 2 }
-          ]
-        },
-        expert: {
-          type: 'test', questions: [
-            { question: '¿Cómo puedes escuchar un audio que has grabado antes de enviarlo?', options: ['No se puede', 'Deslizando hacia arriba para bloquear y dándole al pause', 'Cerrando la aplicación', 'Enviándolo primero y escuchándolo después'], correctIndex: 1 },
-            { question: '¿Cómo se envía una foto que solo se puede ver una vez?', options: ['Pulsando el número 1 dentro del círculo antes de enviar', 'Enviándola y borrándola rápido', 'Haciéndola con los ojos cerrados', 'Eso es imposible'], correctIndex: 0 }
-          ]
-        }
+        name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
+        relax: { type: 'text', text: "Pedid a la IA las siguientes cosas:\n\n1. Que os haga un menú saludable para la semana.\n\n2. Que os saque la lista de la compra del menú anterior.\n\n3. Cómo hacer una receta de magdalenas de chocolate." },
+        expert: { type: 'text', text: "Pedid a la IA las siguientes cosas:\n\n1. Que os saque una imagen de un menú saludable para la semana.\n\n2. Que haga un prompt para hacer una canción o un poema.\n\n3. Hacer una canción o un poema a partir del prompt anterior." }
       },
       4: {
-        name: 'Plátano', title: 'Prueba Práctica 2',
-        relax: { type: 'text', text: "Tu prueba es: Hazte un selfie (autofoto) y enséñale a Alba la foto desde tu Galería." },
-        expert: { type: 'text', text: "Tu prueba es: Hazte un selfie usando el temporizador de 3 segundos de la cámara y enséñaselo a Alba." }
+        name: 'Plátano', title: 'Correo electrónico',
+        relax: { type: 'text', text: "Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con asunto, saludo, un refrán y despedida con vuestros nombres." },
+        expert: { type: 'text', text: "Tienes que hacer las siguientes pruebas:\n\n1. Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con Copia a los demás de vuestro grupo.\n\n2. Responded al correo de Alba a todos los del grupo adjuntando una foto." }
       },
       5: {
-        name: 'Melón', title: 'Repaso de Ajustes',
-        relax: {
-          type: 'test', questions: [
-            { question: '¿Dónde se cambia el tamaño de la letra para que la veas más grande?', options: ['En la aplicación del tiempo', 'En los números para llamar', 'En Configuración / Pantalla (o Ajustes)', 'Apagando el teléfono'], correctIndex: 2 },
-            { question: '¿Cómo se sube el brillo de la pantalla?', options: ['Deslizando de arriba a abajo y moviendo la barra del sol', 'Poniendo el móvil de cara al sol', 'Frotando la pantalla', 'Cambiando la batería'], correctIndex: 0 }
-          ]
-        },
-        expert: {
-          type: 'test', questions: [
-            { question: '¿Dónde puedes ver qué porcentaje de batería te queda?', options: ['Dentro de WhatsApp', 'En Configuración > Batería (o deslizando de arriba abajo)', 'En la cámara de fotos', 'Llamando a tu operadora'], correctIndex: 1 },
-            { question: '¿Cómo se cambia el fondo de pantalla?', options: ['No se puede cambiar nunca', 'Haciendo una foto y ya está', 'En Configuración > Fondo de pantalla (o manteniendo pulsado el escritorio)', 'En la aplicación del calendario'], correctIndex: 2 }
-          ]
-        }
+        name: 'Melón', title: 'Videollamada',
+        relax: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del grupo.\n\n2. Silenciaos.\n\n3. Cambiad la cámara a la de atrás." },
+        expert: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del grupo.\n\n2. Silenciaos.\n\n3. Salid de WhatsApp sin salir de la llamada.\n\n4. Volved a la llamada.\n\n5. Poneos un filtro/fondo/efecto…" },
       },
       6: {
-        name: 'Sandía', title: 'Prueba Práctica 3',
-        relax: { type: 'text', text: "Tu prueba es: Pon una alarma en el móvil para mañana a las 08:30 de la mañana. Muéstraselo a Alba." },
-        expert: { type: 'text', text: "Tu prueba es: Pon una alarma para mañana a las 08:30 y ponle de etiqueta/nombre 'Buenos días'. Muéstraselo a Alba." }
+        name: 'Sandía', title: 'Google Maps',
+        relax: { type: 'text', text: "Buscad en Google Maps las siguientes cosas:\n\n1. Cómo ir desde el Casal hasta la Catedral de Palma en coche.\n\n2. Un restaurante en Santa Eugènia con buena puntuación." },
+        expert: { type: 'text', text: "Buscad en Google Maps las siguientes cosas:\n\n1. Cómo ir desde el Casal hasta la Catedral de Palma en transporte público a las 14:00 h.\n\n2. Un restaurante en Santa Maria con buena puntuación, que esté abierto y con precio 20-30 € y guardadlo.\n\n3. Compartid el restaurante con Alba por WhatsApp." }
       },
       7: {
-        name: 'Pera', title: 'Repaso de Conexiones',
+        name: 'Pera', title: 'Emojis',
         default: {
           type: 'test', questions: [
-            { question: '¿Cómo te conectas a un nuevo Wi-Fi?', options: ['Poniendo el modo avión', 'En Configuración / Conexiones (o Red Wi-Fi)', 'Subiendo el volumen de la música', 'Borrando contactos antiguos'], correctIndex: 1 },
-            { question: '¿Cómo activas o desactivas el Bluetooth?', options: ['Cerrando los ojos', 'Borrando todas las fotos', 'En Configuración > Bluetooth (o deslizando de arriba abajo)', 'Haciendo una llamada'], correctIndex: 2 },
-            { image: 'airplane_icon.png', question: '¿Para qué sirve este icono?', options: ['Para jugar a un juego de aviones', 'Para desactivar temporalmente llamadas, datos y Wi-Fi', 'Para poner una alarma para despertarte', 'Para hacer que internet vaya más rápido'], correctIndex: 1 },
-            { question: 'Si no te funciona Internet por la calle, ¿qué compruebas?', options: ['Que estén encendidos los Datos Móviles', 'La aplicación del tiempo', 'Que tengas saldo en el banco', 'El volumen de la llamada'], correctIndex: 0 }
+            { question: '¿Qué emoji representa un corazón?', options: ['😊', '🙏', '❤️', '🤔'], correctIndex: 2 },
+            { question: '¿Qué significa este emoji: 😢?', options: ['Contento', 'Comiendo', 'Muy cansado', 'Triste'], correctIndex: 3 },
+            { image: 'airplane_icon.png', question: '¿Con qué emoji podemos representar un viaje a la playa?', options: ['🏖️', '🛏️', '☕', '🚪'], correctIndex: 0 },
+            { question: '¿Cómo se dice con emojis: “Me gusta”?', options: ['👎', '👍', '🤷‍♀️', '🙅‍♂️'], correctIndex: 1 }
           ]
         }
       },
       8: {
-        name: 'Uva', title: 'Prueba Práctica 4',
-        relax: { type: 'text', text: "Tu prueba es: Añade el teléfono de un compañero a tu agenda de Contactos y dale un toque." },
-        expert: { type: 'text', text: "Tu prueba es: Crea un contacto nuevo poniéndole una foto de perfil (se la puedes hacer al instante) y guárdalo. Avisa a Alba." }
+        name: 'Uva', title: 'Búsquedas',
+        relax: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Buscar la canción Mediterráneo de Joan Manuel Serrat.\n\n2. Buscar en youtube una receta de arroz brut.\n\n3. Buscar con incógnito un vuelo a Barcelona." },
+        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Buscar un vídeo de ejercicios de espalda sana.\n\n2. Crear una lista de spotify o youtube con 5 canciones.\n\n3. Buscar un vídeo-tutorial de cómo plantar tomateras y guardarlo.\n\n4. Buscar con incógnito un vuelo y un hotel en Nueva York." }
       }
     }
   }
