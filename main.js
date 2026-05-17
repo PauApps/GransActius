@@ -16,12 +16,13 @@ const dict = {
         relax: {
           type: 'test', questions: [
             { image: 'Paquet1.png', question: 'És estafa?', options: ['Si', 'No'], correctIndex: 0 },
-            { question: 'Com pots veure una ruta per anar a peu?', options: ['Clicant a la icona del vianant', 'Posant el mòbil a terra', 'Obrint la càmera', 'Trucant a un taxi'], correctIndex: 0 }
+            { question: 'Hola mama ❤️\nHe perdut el mòbil. Aquest és el meu número nou: 693618372\nNecessit que me facis un bizum urgent ara mateix.\n\n Què faries?', options: ['Fer el bizum', 'Telefonar al teu fill/a abans o intentar contactar amb algun amic/amiga', 'Contestar amb les dades bancàries'], correctIndex: 1 }
           ]
         },
         expert: {
           type: 'test', questions: [
-            { question: 'Com envies la teva ubicació actual per WhatsApp?', options: ['Fent-li una foto al carrer', 'A l\'icona del clip (Adjuntar) > Ubicació', 'Cridant pel micròfon on ets', 'Escribint "soc aquí"'], correctIndex: 1 },
+            { image: 'Imagin.png', question: 'És estafa?', options: ['Si', 'No'], correctIndex: 1 },
+            { image: 'BBVA.png', question: 'És estafa?', options: ['Si', 'No'], correctIndex: 0 },
             { question: 'Què vol dir el punt blau al mapa?', options: ['Un lloc per menjar', 'La posició on estàs tu ara mateix', 'Una piscina pública', 'Una botiga tancada'], correctIndex: 1 }
           ]
         }
