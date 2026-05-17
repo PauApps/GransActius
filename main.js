@@ -58,13 +58,13 @@ const dict = {
         expert: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en transport públic a les 14:00 h.\n\n2. Un restaurant a Santa Maria amb bona puntuació, que estigui obert i amb preu 20-30 € i guardau-lo.\n\n3.Compartiu el restaurant amb n’Alba per WhatsApp." }
       },
       7: {
-        name: 'Pera', title: 'Repàs de Connexions',
+        name: 'Pera', title: 'Emojis',
         default: {
           type: 'test', questions: [
-            { question: 'Com et connectes a un nou Wi-Fi?', options: ['Posant el mode avió per volar', 'A Configuració / Connexions (o Xarxa Wi-Fi)', 'Apujant el volum de la música al màxim', 'Esborrant contactes antics'], correctIndex: 1 },
-            { question: 'Com actives o desactives el Bluetooth?', options: ['Tancant els ulls', 'Esborrant totes les fotos', 'A Configuració > Bluetooth (o lliscant de dalt a baix)', 'Fent una trucada'], correctIndex: 2 },
-            { image: 'airplane_icon.png', question: 'Per a què serveix aquesta icona?', options: ['Per jugar a un joc d\'avions', 'Per desactivar temporalment trucades, dades i Wi-Fi', 'Per posar una alarma per despertar-te', 'Per fer que internet vagi més ràpid'], correctIndex: 1 },
-            { question: 'Si no et funciona l\'Internet pel carrer, què comproves?', options: ['Que estiguin enceses les Dades Mòbils', 'L\'aplicació del temps', 'Que tinguis saldo al banc', 'El volum de la trucada'], correctIndex: 0 }
+            { question: 'Quin emoji representa un cor? ', options: ['😊', '🙏', '❤️', '🤔'], correctIndex: 2 },
+            { question: 'Què vol dir aquest emoji: 😢?', options: ['Content', 'Menjant', 'Molt cansat', 'Trist'], correctIndex: 3 },
+            { image: 'airplane_icon.png', question: 'Amb quin emoji podem representar un viatge a la platja?', options: ['🏖️', '🛏️', '☕', '🚪'], correctIndex: 0 },
+            { question: 'Com es fa amb emojis: “M’agrada”?', options: ['👎', '👍', '🤷‍♀️', '🙅‍♂️'], correctIndex: 1 }
           ]
         }
       },
