@@ -40,14 +40,14 @@ const dict = {
 };
 
 const CODES = {
-  1: "ACTIU1",
-  2: "ACTIU2",
-  3: "ACTIU3",
-  4: "ACTIU4",
-  5: "ACTIU5",
-  6: "ACTIU6",
-  7: "ACTIU7",
-  8: "ACTIU8"
+  1: "1",
+  2: "1",
+  3: "1",
+  4: "1",
+  5: "1",
+  6: "1",
+  7: "1",
+  8: "1"
 };
 
 let currentLang = 'ca';
@@ -158,7 +158,7 @@ window.verifyCode = verifyCode;
 function renderTopicContent(topicId) {
   const d = dict[currentLang];
   const topicData = d.topics[topicId];
-  
+
   quizBody.innerHTML = '';
   quizFeedback.className = 'feedback-text hidden';
   btnCloseContent.classList.add('hidden');
