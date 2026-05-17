@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Grans Actius</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <h1 class="visually-hidden">Grans Actius</h1>
+      <div class="lang-selector">
+        <button id="btn-ca" class="lang-btn active" onclick="setLanguage('ca')">Català</button>
+        <button id="btn-es" class="lang-btn" onclick="setLanguage('es')">Castellano</button>
+      </div>
+    </header>
+
+    <main class="grid-container" id="topics-grid">
+      <!-- Generated via JS -->
+    </main>
+
+  </div>
+
+  <!-- Modal Code Input -->
+  <div id="modal-code" class="modal hidden">
+    <div class="modal-content">
+      <button class="close-btn" aria-label="Cerrar" onclick="closeModals()">✕</button>
+      <h2 id="modal-code-title" data-i18n="codeTitle">Introdueix el codi que t'ha donat la professora</h2>
+      <input type="text" id="code-input" placeholder="..." autocomplete="off" aria-label="Codi" autocapitalize="characters">
+      <p id="code-error" class="error-text hidden" data-i18n="codeError">Codi incorrecte, torna-ho a intentar</p>
+      <button class="action-btn" id="btn-verify" onclick="verifyCode()" data-i18n="btnVerify">Validar</button>
+    </div>
+  </div>
+
+  <!-- Modal Content -->
+  <div id="modal-content" class="modal hidden">
+    <div class="modal-content quiz-content">
+      <button class="close-btn" aria-label="Cerrar" onclick="closeModals()">✕</button>
+      <h2 id="quiz-title">...</h2>
+      <div id="quiz-body">
+        <!-- Injected via JS -->
+      </div>
+      <div id="quiz-feedback" class="feedback-text hidden"></div>
+      <button class="action-btn hidden mt-16" id="btn-close-content" onclick="closeModals()" data-i18n="btnClose">Tornar</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
