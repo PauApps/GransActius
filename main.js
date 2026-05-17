@@ -61,10 +61,16 @@ const dict = {
         name: 'Pera', title: 'Emojis',
         default: {
           type: 'test', questions: [
-            { question: 'Quin emoji representa un cor? ', options: ['😊', '🙏', '❤️', '🤔'], correctIndex: 2 },
-            { question: 'Què vol dir aquest emoji: 😢?', options: ['Content', 'Menjant', 'Molt cansat', 'Trist'], correctIndex: 3 },
-            { question: 'Amb quin emoji podem representar un viatge a la platja?', options: ['🏖️', '🛏️', '☕', '🚪'], correctIndex: 0 },
-            { question: 'Com es fa amb emojis: “M’agrada”?', options: ['👎', '👍', '🤷‍♀️', '🙅‍♂️'], correctIndex: 1 }
+            { question: '📱 La teva neta t’envia una foto molt divertida.\nQuin emoji respondries?', options: ['😂', '😡', '😴', '🤔'], correctIndex: 0 },
+            { question: 'TQM ❤️\nQuè significa “TQM”?', options: ['Tenc qualque missatge', 'T’estim molt', 'Tenc que menjar'], correctIndex: 1 },
+            { question: '🔥😎🙌\nAquest conjunt vol dir…', options: ['Alguna cosa molt xula o espectacular', 'Perill d’incendi', 'Estic cansat'], correctIndex: 0 },
+            { question: 'xfa envia ubi\nQuè significa?', options: ['Per favor envia la ubicació', 'Xerraré amb tu avui', 'Envia una foto urgent'], correctIndex: 0 },
+            { question: '🙈\nAquest emoji sovint significa…', options: ['“Quina vergonya”', 'Tenc por', 'Quina gràcia'], correctIndex: 0 },
+            { question: 'El teu amic et diu que serà avi. Quin emoji encaixa millor?', options: ['😭', '🎉', '👻'], correctIndex: 1 },
+            { question: '🤔📱❓\nQuè podria voler dir?', options: ['Tenc un dubte amb el mòbil', 'Estic content', 'He perdut el telèfon'], correctIndex: 0 },
+            { question: 'Què significa “OMG”?', options: ['Oh no!', 'Oh my God / Mare meva!', 'Organització Mundial de gent Gran'], correctIndex: 1 },
+            { question: '💬 Has llegit un missatge però no entens gaire el que et demanen.\nQuin emoji podries enviar?', options: ['🤔', '🔥', '😎'], correctIndex: 0 },
+            { question: 'qtal? 😄 \nQuè significa?', options: ['Que tal?', 'Quina tarda alegre', 'Quedam tard'], correctIndex: 0 }
           ]
         }
       },
@@ -137,10 +143,16 @@ const dict = {
         name: 'Pera', title: 'Emojis',
         default: {
           type: 'test', questions: [
-            { question: '¿Qué emoji representa un corazón?', options: ['😊', '🙏', '❤️', '🤔'], correctIndex: 2 },
-            { question: '¿Qué significa este emoji: 😢?', options: ['Contento', 'Comiendo', 'Muy cansado', 'Triste'], correctIndex: 3 },
-            { image: 'airplane_icon.png', question: '¿Con qué emoji podemos representar un viaje a la playa?', options: ['🏖️', '🛏️', '☕', '🚪'], correctIndex: 0 },
-            { question: '¿Cómo se dice con emojis: “Me gusta”?', options: ['👎', '👍', '🤷‍♀️', '🙅‍♂️'], correctIndex: 1 }
+            { question: '📱 Tu nieta te envía una foto muy divertida.\n¿Qué emoji responderías?', options: ['😂', '😡', '😴', '🤔'], correctIndex: 0 },
+            { question: 'TQM ❤️\n¿Qué significa “TQM”?', options: ['Tengo algún mensaje', 'Te quiero mucho', 'Tengo que moverme'], correctIndex: 1 },
+            { question: '🔥😎🙌\nEste conjunto significa…', options: ['Algo muy chulo o espectacular', 'Peligro de incendio', 'Estoy cansado'], correctIndex: 0 },
+            { question: 'xfa envia ubi\n¿Qué significa?', options: ['Por favor envía la ubicación', 'Hablaré contigo hoy', 'Envía una foto urgente'], correctIndex: 0 },
+            { question: '🙈\nEste emoji a menudo significa…', options: ['“Qué vergüenza”', 'Tengo miedo', 'Qué gracia'], correctIndex: 0 },
+            { question: 'Tu amigo te dice que será abuelo. ¿Qué emoji encaja mejor?', options: ['😭', '🎉', '👻'], correctIndex: 1 },
+            { question: '🤔📱❓\n¿Qué podría significar?', options: ['Tengo una duda con el móvil', 'Estoy contento', 'He perdido el teléfono'], correctIndex: 0 },
+            { question: '¿Qué significa “OMG”?', options: ['¡Oh no!', 'Oh my God / ¡Madre mía!', 'Organización Mundial de gente Mayor'], correctIndex: 1 },
+            { question: '💬 Has leído un mensaje pero no entiendes mucho lo que te piden.\n¿Qué emoji podrías enviar?', options: ['🤔', '🔥', '😎'], correctIndex: 0 },
+            { question: 'qtal? 😄 \n¿Qué significa?', options: ['¿Qué tal?', 'Qué tarde alegre', 'Quedamos tarde'], correctIndex: 0 }
           ]
         }
       },
