@@ -55,7 +55,7 @@ const dict = {
       6: {
         name: 'Síndria', title: 'Google Maps',
         relax: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en cotxe.\n\n2. Un restaurant a Santa Eugènia amb bona puntuació." },
-        expert: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en transport públic a les 14:00 h.\n\n2. Un restaurant a Santa Maria amb bona puntuació, que estigui obert i amb preu 20-30 € i guardau-lo.\n\n3.Compartiu el restaurant amb n’Alba per WhatsApp." }
+        expert: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en transport públic a les 14:00 h.\n\n2. Un restaurant a Santa Maria amb bona puntuació, que estigui obert, amb preu 20-30 € i guardau-lo.\n\n3.Compartiu el restaurant amb n’Alba per WhatsApp." }
       },
       7: {
         name: 'Pera', title: 'Emojis',
@@ -131,7 +131,7 @@ const dict = {
       6: {
         name: 'Sandía', title: 'Google Maps',
         relax: { type: 'text', text: "Buscad en Google Maps las siguientes cosas:\n\n1. Cómo ir desde el Casal hasta la Catedral de Palma en coche.\n\n2. Un restaurante en Santa Eugènia con buena puntuación." },
-        expert: { type: 'text', text: "Buscad en Google Maps las siguientes cosas:\n\n1. Cómo ir desde el Casal hasta la Catedral de Palma en transporte público a las 14:00 h.\n\n2. Un restaurante en Santa Maria con buena puntuación, que esté abierto y con precio 20-30 € y guardadlo.\n\n3. Compartid el restaurante con Alba por WhatsApp." }
+        expert: { type: 'text', text: "Buscad en Google Maps las siguientes cosas:\n\n1. Cómo ir desde el Casal hasta la Catedral de Palma en transporte público a las 14:00 h.\n\n2. Un restaurante en Santa Maria con buena puntuación, que esté abierto, con precio 20-30 € y guardadlo.\n\n3. Compartid el restaurante con Alba por WhatsApp." }
       },
       7: {
         name: 'Pera', title: 'Emojis',
