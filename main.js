@@ -16,7 +16,7 @@ const dict = {
         relax: {
           type: 'test', questions: [
             { image: 'Paquet1.png', question: 'És estafa?', options: ['Si', 'No'], correctIndex: 0 },
-            { question: 'Hola mama ❤️\nHe perdut el mòbil. Aquest és el meu número nou: 693618372\nNecessit que me facis un bizum urgent ara mateix.\n\n Què faries?', options: ['Fer el bizum', 'Telefonar al teu fill/a abans o intentar contactar amb algun amic/amiga', 'Contestar amb les dades bancàries'], correctIndex: 1 },
+            { question: 'Hola mama ❤️\nHe perdut el mòbil. Aquest és el meu número nou: 693618372\nNecessit que me facis un bizum urgent ara mateix.\n\n Què faries?', options: ['Fer el bizum', 'Telefonar al teu fill/a o intentar contactar amb algun amic/amiga', 'Contestar amb les dades bancàries'], correctIndex: 1 },
             { image: 'Citaprevia.png', question: 'És estafa?', options: ['Si', 'No'], correctIndex: 1 },
             { image: 'iCloud2.png', question: 'És estafa?', options: ['Si', 'No'], correctIndex: 0 },
             { image: 'Logitravel.jpg', question: 'És estafa?', options: ['Si', 'No'], correctIndex: 1 }
@@ -34,8 +34,8 @@ const dict = {
       },
       2: {
         name: 'Poma', title: 'WhatsApp',
-        relax: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Enviau una nota de veu per WhatsApp a n'Alba.\n\n2. Compartiu la vostra ubicació en directe amb n’Alba\n\n3. Feu una foto d’alguna cosa de la classe i edita-la afegint un dibuix i escriu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
-        expert: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Creau un grup nou amb n’Alba i vosaltres.\n\n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono.\n\n3. Creau un sticker instantani a partir d’una foto i envia-la pel grup nou.\n\n4. Eliminau el grup que heu fet." }
+        relax: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Enviau una nota de veu per WhatsApp a n'Alba.\n\n2. Compartiu la vostra ubicació en directe amb n’Alba\n\n3. Feis una foto d’alguna cosa de la classe i editau-la afegint un dibuix i escriviu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
+        expert: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Creau un grup nou amb n’Alba i vosaltres.\n\n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono.\n\n3. Creau un sticker a partir d’una foto i enviau-lo pel grup nou.\n\n4. Eliminau el grup que heu fet." }
       },
       3: {
         name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
@@ -44,8 +44,8 @@ const dict = {
       },
       4: {
         name: 'Plàtan', title: 'Correu electrònic',
-        relax: { type: 'text', text: "Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb assumpte, salutació, dita i clausura amb els vostres noms." },
-        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1.Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb Còpia als altres del vostre grup.\n\n2. Responeu al correu de n’Alba a tots els del grup adjuntant una foto." }
+        relax: { type: 'text', text: "Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb assumpte, salutació, una dita Mallorquina i clausura amb els vostres noms." },
+        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1. Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb còpia als altres del vostre grup.\n\n2. Responeu al correu de n’Alba a tots els del grup adjuntant una foto." }
       },
       5: {
         name: 'Meló', title: 'Videocridada',
@@ -55,7 +55,7 @@ const dict = {
       6: {
         name: 'Síndria', title: 'Google Maps',
         relax: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en cotxe.\n\n2. Un restaurant a Santa Eugènia amb bona puntuació." },
-        expert: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en transport públic a les 14:00 h.\n\n2. Un restaurant a Santa Maria amb bona puntuació, que estigui obert, amb preu 20-30 € i guardau-lo.\n\n3.Compartiu el restaurant amb n’Alba per WhatsApp." }
+        expert: { type: 'text', text: "Cercau al google maps les següents coses:\n\n1. Com anar des del Casal fins a la Catedral de Palma en transport públic a les 14:00 h.\n\n2. Un restaurant a Santa Maria amb bona puntuació, que estigui obert, amb preu 20-30 € i guardau-lo.\n\n3. Compartiu el restaurant amb n’Alba per WhatsApp." }
       },
       7: {
         name: 'Pera', title: 'Emojis',
@@ -63,20 +63,20 @@ const dict = {
           type: 'test', questions: [
             { question: '📱 La teva neta t’envia una foto molt divertida.\nQuin emoji respondries?', options: ['😂', '😡', '😴', '🤔'], correctIndex: 0 },
             { question: 'TQM ❤️\nQuè significa “TQM”?', options: ['Tenc qualque missatge', 'T’estim molt', 'Tenc que menjar'], correctIndex: 1 },
-            { question: '🔥😎🙌\nAquest conjunt vol dir…', options: ['Alguna cosa molt xula o espectacular', 'Perill d’incendi', 'Estic cansat'], correctIndex: 0 },
+            { question: '🔥😎🙌\nAquest conjunt vol dir…', options: ['Perill d’incendi', 'Estic cansat', 'Alguna cosa molt xula o espectacular'], correctIndex: 2 },
             { question: 'xfa envia ubi\nQuè significa?', options: ['Per favor envia la ubicació', 'Xerraré amb tu avui', 'Envia una foto urgent'], correctIndex: 0 },
-            { question: '🙈\nAquest emoji sovint significa…', options: ['“Quina vergonya”', 'Tenc por', 'Quina gràcia'], correctIndex: 0 },
+            { question: '🙈\nAquest emoji sovint significa…', options: ['Tenc por', 'Quina gràcia', 'Quina vergonya', 'No vull mirar'], correctIndex: 2 },
             { question: 'El teu amic et diu que serà avi. Quin emoji encaixa millor?', options: ['😭', '🎉', '👻'], correctIndex: 1 },
             { question: '🤔📱❓\nQuè podria voler dir?', options: ['Tenc un dubte amb el mòbil', 'Estic content', 'He perdut el telèfon'], correctIndex: 0 },
             { question: 'Què significa “OMG”?', options: ['Oh no!', 'Oh my God / Mare meva!', 'Organització Mundial de gent Gran'], correctIndex: 1 },
-            { question: '💬 Has llegit un missatge però no entens gaire el que et demanen.\nQuin emoji podries enviar?', options: ['🤔', '🔥', '😎'], correctIndex: 0 },
-            { question: 'qtal? 😄 \nQuè significa?', options: ['Que tal?', 'Quina tarda alegre', 'Quedam tard'], correctIndex: 0 }
+            { question: '💬 Has llegit un missatge però no entens gaire el que et demanen.\nQuin emoji podries enviar?', options: ['😡', '🔥', '😎', '❓'], correctIndex: 3 },
+            { question: 'dps \nQuè significa?', options: ['Despesa', 'Després', 'De passeig', 'D’aquí poc sortim'], correctIndex: 1 }
           ]
         }
       },
       8: {
         name: 'Rem', title: 'Cerques',
-        relax: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Cercar la cançó Mediterráneo d’en Joan Manuel Serrat.\n\n2. Cercar al youtube una recepta d’arròs brut.\n\n3. Cerca amb incògnit un vol a Barcelona." },
+        relax: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Cercar la cançó Mediterráneo d’en Joan Manuel Serrat.\n\n2. Cercar al youtube una recepta d’arròs brut.\n\n3. Cercar amb incògnit un vol a Barcelona." },
         expert: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Cercar un vídeo d’exercicis d’esquena sana.\n\n2. Crear una llista de spotify o youtube amb 5 cançons.\n\n3. Cercar un vídeo-tutorial de com plantar tomatigueres i guarda’l\n\n4. Cercar amb incògnit un vol i un hotel a Nova York." }
       }
     }
@@ -98,7 +98,7 @@ const dict = {
         relax: {
           type: 'test', questions: [
             { image: 'Paquet1.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 0 },
-            { question: 'Hola mamá ❤️\nHe perdido el móvil. Este es mi número nuevo: 693618372\nNecesito que me hagas un bizum urgente ahora mismo.\n\n ¿Qué harías?', options: ['Hacer el bizum', 'Llamar a tu hijo/a antes o intentar contactar con algún amigo/amiga', 'Contestar con los datos bancarios'], correctIndex: 1 },
+            { question: 'Hola mamá ❤️\nHe perdido el móvil. Este es mi número nuevo: 693618372\nNecesito que me hagas un bizum urgente ahora mismo.\n\n ¿Qué harías?', options: ['Hacer el bizum', 'Llamar a tu hijo/a o intentar contactar con algún amigo/amiga', 'Contestar con los datos bancarios'], correctIndex: 1 },
             { image: 'Citaprevia.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 1 },
             { image: 'iCloud2.png', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 0 },
             { image: 'Logitravel.jpg', question: '¿Es estafa?', options: ['Sí', 'No'], correctIndex: 1 }
@@ -117,7 +117,7 @@ const dict = {
       2: {
         name: 'Manzana', title: 'WhatsApp',
         relax: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Enviad una nota de voz por WhatsApp a Alba.\n\n2. Compartid vuestra ubicación en directo con Alba.\n\n3. Haced una foto de algo de la clase, editadla añadiendo un dibujo y escribid “GRANS ACTIUS”. Después enviadla a Alba." },
-        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Cread un grupo nuevo con Alba y vosotros.\n\n2. Enviad por el grupo nuevo un selfie y tapaos la cara con un emoticono.\n\n3. Cread un sticker instantáneo a partir de una foto y enviadla por el grupo nuevo.\n\n4. Eliminad el grupo que habéis hecho." }
+        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Cread un grupo nuevo con Alba y vosotros.\n\n2. Enviad por el grupo nuevo un selfie y tapaos la cara con un emoticono.\n\n3. Cread un sticker a partir de una foto y enviadlo por el grupo nuevo.\n\n4. Eliminad el grupo que habéis creado." }
       },
       3: {
         name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
@@ -127,11 +127,11 @@ const dict = {
       4: {
         name: 'Plátano', title: 'Correo electrónico',
         relax: { type: 'text', text: "Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con asunto, saludo, un refrán y despedida con vuestros nombres." },
-        expert: { type: 'text', text: "Tienes que hacer las siguientes pruebas:\n\n1. Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con Copia a los demás de vuestro grupo.\n\n2. Responded al correo de Alba a todos los del grupo adjuntando una foto." }
+        expert: { type: 'text', text: "Tienes que hacer las siguientes pruebas:\n\n1. Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con copia a los demás de vuestro grupo.\n\n2. Responded al correo de Alba a todos los del grupo adjuntando una foto." }
       },
       5: {
         name: 'Melón', title: 'Videollamada',
-        relax: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del grupo.\n\n2. Silenciaos.\n\n3. Cambiad la cámara a la de atrás." },
+        relax: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del grupo.\n\n2. Silenciaos.\n\n3. Cambiad la cámara a la trasera." },
         expert: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del grupo.\n\n2. Silenciaos.\n\n3. Salid de WhatsApp sin salir de la llamada.\n\n4. Volved a la llamada.\n\n5. Poneos un filtro/fondo/efecto…" },
       },
       6: {
@@ -143,23 +143,23 @@ const dict = {
         name: 'Pera', title: 'Emojis',
         default: {
           type: 'test', questions: [
-            { question: '📱 Tu nieta te envía una foto muy divertida.\n¿Qué emoji responderías?', options: ['😂', '😡', '😴', '🤔'], correctIndex: 0 },
-            { question: 'TQM ❤️\n¿Qué significa “TQM”?', options: ['Tengo algún mensaje', 'Te quiero mucho', 'Tengo que moverme'], correctIndex: 1 },
+            { question: '📱 Tu nieta te envía una foto muy divertida.\n¿Qué emoji responderías?', options: ['😡', '😴', '🤔', '😂'], correctIndex: 3 },
+            { question: 'TQM ❤️\n¿Qué significa “TQM”?', options: ['Tengo que marcharme', 'Te quiero mucho', 'Tengo que merendar'], correctIndex: 1 },
             { question: '🔥😎🙌\nEste conjunto significa…', options: ['Algo muy chulo o espectacular', 'Peligro de incendio', 'Estoy cansado'], correctIndex: 0 },
-            { question: 'xfa envia ubi\n¿Qué significa?', options: ['Por favor envía la ubicación', 'Hablaré contigo hoy', 'Envía una foto urgente'], correctIndex: 0 },
-            { question: '🙈\nEste emoji a menudo significa…', options: ['“Qué vergüenza”', 'Tengo miedo', 'Qué gracia'], correctIndex: 0 },
+            { question: 'xfa envia ubi\n¿Qué significa?', options: ['Hablaré contigo hoy', 'Por favor envía una imagen', 'Por favor envía la ubicación'], correctIndex: 3 },
+            { question: '🙈\nEste emoji a menudo significa…', options: ['Qué verguenza', 'Tengo miedo', 'Qué gracia', 'No puedo mirar'], correctIndex: 0 },
             { question: 'Tu amigo te dice que será abuelo. ¿Qué emoji encaja mejor?', options: ['😭', '🎉', '👻'], correctIndex: 1 },
             { question: '🤔📱❓\n¿Qué podría significar?', options: ['Tengo una duda con el móvil', 'Estoy contento', 'He perdido el teléfono'], correctIndex: 0 },
-            { question: '¿Qué significa “OMG”?', options: ['¡Oh no!', 'Oh my God / ¡Madre mía!', 'Organización Mundial de gente Mayor'], correctIndex: 1 },
-            { question: '💬 Has leído un mensaje pero no entiendes mucho lo que te piden.\n¿Qué emoji podrías enviar?', options: ['🤔', '🔥', '😎'], correctIndex: 0 },
-            { question: 'qtal? 😄 \n¿Qué significa?', options: ['¿Qué tal?', 'Qué tarde alegre', 'Quedamos tarde'], correctIndex: 0 }
+            { question: '¿Qué significa “OMG”?', options: ['¡Oh no!', 'Organización Mundial de Gente Mayor', 'Oh my God / ¡Madre mía!'], correctIndex: 2 },
+            { question: '💬 Has leído un mensaje pero no entiendes mucho lo que te piden.\n¿Qué emoji podrías enviar?', options: ['😡', '🔥', '😎', '❓'], correctIndex: 3 },
+            { question: 'dps \n¿Qué significa?', options: ['Despacio', 'Después', 'De paseo', 'Donde podemos salir'], correctIndex: 1 }
           ]
         }
       },
       8: {
         name: 'Uva', title: 'Búsquedas',
-        relax: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Buscar la canción Mediterráneo de Joan Manuel Serrat.\n\n2. Buscar en youtube una receta de arroz brut.\n\n3. Buscar con incógnito un vuelo a Barcelona." },
-        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Buscar un vídeo de ejercicios de espalda sana.\n\n2. Crear una lista de spotify o youtube con 5 canciones.\n\n3. Buscar un vídeo-tutorial de cómo plantar tomateras y guardarlo.\n\n4. Buscar con incógnito un vuelo y un hotel en Nueva York." }
+        relax: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Buscar la canción Mediterráneo de Joan Manuel Serrat.\n\n2. Buscar en youtube una receta de arroz brut.\n\n3. Buscar en incógnito un vuelo a Barcelona." },
+        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Buscar un vídeo de ejercicios de espalda sana.\n\n2. Crear una lista de spotify o youtube con 5 canciones.\n\n3. Buscar un vídeo-tutorial de cómo plantar tomateras y guardarlo.\n\n4. Buscar en incógnito un vuelo y un hotel en Nueva York." }
       }
     }
   }
