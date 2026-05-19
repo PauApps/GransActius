@@ -35,7 +35,7 @@ const dict = {
       2: {
         name: 'Poma', title: 'WhatsApp',
         relax: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Enviau una nota de veu per WhatsApp a n'Alba.\n\n2. Compartiu la vostra ubicació en directe amb n’Alba\n\n3. Feis una foto d’alguna cosa de la classe i editau-la afegint un dibuix i escriviu “GRANS ACTIUS”. Després enviau-la a n’Alba." },
-        expert: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Creau un grup nou amb n’Alba i vosaltres.\n\n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono.\n\n3. Creau un sticker a partir d’una foto i enviau-lo pel grup nou.\n\n4. Eliminau el grup que heu fet." }
+        expert: { type: 'text', text: "Heu de fer les següents proves:\n\n1. Creau un grup de WhatsApp nou amb n’Alba i vosaltres.\n\n2. Enviau pel grup nou una selfie i tapau-vos la cara amb un emoticono.\n\n3. Creau un sticker a partir d’una foto i enviau-lo pel grup nou.\n\n4. Eliminau el grup que heu fet." }
       },
       3: {
         name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
@@ -45,12 +45,12 @@ const dict = {
       4: {
         name: 'Plàtan', title: 'Correu electrònic',
         relax: { type: 'text', text: "Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb assumpte, salutació, una dita Mallorquina i clausura amb els vostres noms." },
-        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1. Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb còpia als altres del vostre grup.\n\n2. Responeu al correu de n’Alba a tots els del grup adjuntant una foto." }
+        expert: { type: 'text', text: "Has de fer les següents proves:\n\n1. Enviau un correu electrònic a n’Alba (alba.gransactius@gmail.com) amb còpia als altres del vostre equip.\n\n2. Responeu al correu de n’Alba a tots els del equip adjuntant una foto." }
       },
       5: {
         name: 'Meló', title: 'Videocridada',
-        relax: { type: 'text', text: "Llegiu primer totes les proves i després feis-les durant la videocridada:\n\n1. Feis una videocridada amb n’Alba i els del grup\n\n2. Silenciau-vos.\n\n3. Canviau la càmera a la de darrere." },
-        expert: { type: 'text', text: "Llegiu primer totes les proves i després feis-les durant la videocridada:\n\n1. Feis una videocridada amb n’Alba i els del grup\n\n2. Silenciau-vos.\n\n3. Sortiu de whatsapp sense sortir de la cridada.\n\n4. Tornau a la cridada.\n\n5. Posau-vos un filtre/fons/efecte…" },
+        relax: { type: 'text', text: "Llegiu primer totes les proves i després feis-les durant la videocridada:\n\n1. Feis una videocridada amb n’Alba i els del equip\n\n2. Silenciau-vos.\n\n3. Canviau la càmera a la de darrere." },
+        expert: { type: 'text', text: "Llegiu primer totes les proves i després feis-les durant la videocridada:\n\n1. Feis una videocridada amb n’Alba i els del equip\n\n2. Silenciau-vos.\n\n3. Sortiu de whatsapp sense sortir de la cridada.\n\n4. Tornau a la cridada.\n\n5. Posau-vos un filtre/fons/efecte…" },
       },
       6: {
         name: 'Síndria', title: 'Google Maps',
@@ -117,7 +117,7 @@ const dict = {
       2: {
         name: 'Manzana', title: 'WhatsApp',
         relax: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Enviad una nota de voz por WhatsApp a Alba.\n\n2. Compartid vuestra ubicación en directo con Alba.\n\n3. Haced una foto de algo de la clase, editadla añadiendo un dibujo y escribid “GRANS ACTIUS”. Después enviadla a Alba." },
-        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Cread un grupo nuevo con Alba y vosotros.\n\n2. Enviad por el grupo nuevo un selfie y tapaos la cara con un emoticono.\n\n3. Cread un sticker a partir de una foto y enviadlo por el grupo nuevo.\n\n4. Eliminad el grupo que habéis creado." }
+        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Cread un grupo de WhatsApp nuevo con Alba y vosotros.\n\n2. Enviad por el grupo nuevo un selfie y tapaos la cara con un emoticono.\n\n3. Cread un sticker a partir de una foto y enviadlo por el grupo nuevo.\n\n4. Eliminad el grupo que habéis creado." }
       },
       3: {
         name: 'Mandarina', title: 'IA (Chat GPT/Gemini)',
@@ -127,12 +127,12 @@ const dict = {
       4: {
         name: 'Plátano', title: 'Correo electrónico',
         relax: { type: 'text', text: "Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con asunto, saludo, un refrán y despedida con vuestros nombres." },
-        expert: { type: 'text', text: "Tienes que hacer las siguientes pruebas:\n\n1. Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con copia a los demás de vuestro grupo.\n\n2. Responded al correo de Alba a todos los del grupo adjuntando una foto." }
+        expert: { type: 'text', text: "Tenéis que hacer las siguientes pruebas:\n\n1. Enviad un correo electrónico a Alba (alba.gransactius@gmail.com) con copia a los demás de vuestro equipo.\n\n2. Responded al correo de Alba a todos los del equipo adjuntando una foto." }
       },
       5: {
         name: 'Melón', title: 'Videollamada',
-        relax: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del grupo.\n\n2. Silenciaos.\n\n3. Cambiad la cámara a la trasera." },
-        expert: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del grupo.\n\n2. Silenciaos.\n\n3. Salid de WhatsApp sin salir de la llamada.\n\n4. Volved a la llamada.\n\n5. Poneos un filtro/fondo/efecto…" },
+        relax: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del equipo.\n\n2. Silenciaos.\n\n3. Cambiad la cámara a la trasera." },
+        expert: { type: 'text', text: "Leed primero todas las pruebas y después hacedlas durante la videollamada:\n\n1. Haced una videollamada con Alba y los del equipo.\n\n2. Silenciaos.\n\n3. Salid de WhatsApp sin salir de la llamada.\n\n4. Volved a la llamada.\n\n5. Poneos un filtro/fondo/efecto…" },
       },
       6: {
         name: 'Sandía', title: 'Google Maps',
