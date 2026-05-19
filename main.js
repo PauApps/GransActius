@@ -146,7 +146,7 @@ const dict = {
             { question: '📱 Tu nieta te envía una foto muy divertida.\n¿Qué emoji responderías?', options: ['😡', '😴', '🤔', '😂'], correctIndex: 3 },
             { question: 'TQM ❤️\n¿Qué significa “TQM”?', options: ['Tengo que marcharme', 'Te quiero mucho', 'Tengo que merendar'], correctIndex: 1 },
             { question: '🔥😎🙌\nEste conjunto significa…', options: ['Algo muy chulo o espectacular', 'Peligro de incendio', 'Estoy cansado'], correctIndex: 0 },
-            { question: 'xfa envia ubi\n¿Qué significa?', options: ['Hablaré contigo hoy', 'Por favor envía una imagen', 'Por favor envía la ubicación'], correctIndex: 3 },
+            { question: 'xfa envia ubi\n¿Qué significa?', options: ['Hablaré contigo hoy', 'Por favor envía una imagen', 'Por favor envía la ubicación'], correctIndex: 2 },
             { question: '🙈\nEste emoji a menudo significa…', options: ['Qué verguenza', 'Tengo miedo', 'Qué gracia', 'No puedo mirar'], correctIndex: 0 },
             { question: 'Tu amigo te dice que será abuelo. ¿Qué emoji encaja mejor?', options: ['😭', '🎉', '👻'], correctIndex: 1 },
             { question: '🤔📱❓\n¿Qué podría significar?', options: ['Tengo una duda con el móvil', 'Estoy contento', 'He perdido el teléfono'], correctIndex: 0 },
@@ -422,7 +422,7 @@ function handleAnswer(clickedBtn, isCorrect, totalQuestions) {
 
       setTimeout(() => {
         renderTopicContent(currentTopic, currentLevel, currentQuestionIndex + 1);
-      }, 1500);
+      }, 2000);
     } else {
       quizFeedback.textContent = d.correctMsg;
       quizFeedback.className = 'feedback-text feedback-success';
